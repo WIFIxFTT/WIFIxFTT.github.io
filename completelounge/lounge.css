@@ -1,0 +1,17 @@
+p.p2{
+	border-color: white;
+	border-width: 2px;
+	border-style: dashed;
+	background-color: #a7cece;
+	background-image: url(images/background.gif);/*增加圖形樣式*/
+	background-repeat: no-repeat;/*不讓此圖重複*/
+	/*設定邊框*/
+	padding: 30px;
+	padding-left: 80px;
+	/*設定框距*/
+	margin-right: 500px
+}
+
+h1{
+	font-family: 'Poiret One', cursive;
+}
