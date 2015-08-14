@@ -1,10 +1,44 @@
 .wrap{
+	position: relative;
 	background-color: yellow;
+	
 }
 .circle1{
+	box-sizing: border-box;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	padding-top: 50px;
 	position: absolute;
 	border-radius: 50%;
 	background-color: green;
-	top: 0px;
-	left: 200px;
+	top: -75px;
+	left: 380px;
+}
+
+.circle2{
+	box-sizing: border-box;
+	width: 250px;
+	height: 250px;
+	padding-left: 39px;
+	padding-top: 75px; 
+	text-align: center;
+	background-color: #F93;
+	border-radius: 50%;
+	position: absolute;
+	top: 200px;
+	left: 230px;
+}
+
+.circle3{
+	box-sizing: border-box;
+	width: 500px;
+	height: 500px;
+	background-color: white;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 125px;
+	position: absolute;
+	top: 180px;
+	left: 480px;
 }
