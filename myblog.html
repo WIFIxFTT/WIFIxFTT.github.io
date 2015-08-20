@@ -2,23 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <script>
-    var answer = "1234";
-    var guess = "2735";
-    var A = 0;
-    var B = 0;
-
-    for (var i = 0; i < answer.length; i++) {
-      for (var j = 0; j < guess.length; j++){
-        if (answer[i] === guess[j] && i === j )
-          A++;
-        if(answer[i] === guess[j])
-          B++;
-      }
-    }
-//    document.write(A+"A"+B+"B");
-    </script>
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -103,7 +86,31 @@
           <a href="http://www.plurk.com/peter4263676"><img src="810~815/images/plurk.png" width="200px" height="200px" alt=""></a>
         </div>
         <div class="col-md-4">
-          
+          <h1>Let's play games</h1>
+          <script>
+            var answer = prompt("Put in your answers.");
+            while(true){
+              var guess = prompt("Let's guess!")
+              var number = 0;
+              var A = 0;
+              var B = 0;
+
+              number++
+              for (var i = 0; i < answer.length; i++) {
+                for (var j = 0; j < guess.length; j++){
+                  if (answer[i] === guess[j] && i === j)
+                    A++;
+                  if(answer[i] === guess[j] && i !== j)
+                    B++;
+                }
+              }
+              document.write(A+"A"+B+"B<br>");
+              if(A === 4){
+                document.write("congratulations!<br> You guess "+ number +" times.");
+                break;
+              }
+            }
+          </script>
         </div>
       </div>
       
