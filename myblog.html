@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <script type="text/javascript" src="js/blog.countnum.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -41,14 +42,14 @@
         <div class="collapse navbar-collapse" id="mynavbar-content">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="resume.html">About me</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Products</a></li>
             <li class="dropdown">           
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Homework<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Board of Members</a></li>
-                <li><a href="#">Developers Team</a></li>
+                <li><a href="810~815/L3 Practice/index.html">journal</a></li>
+                <li><a href="810~815/L3 Practice/completelounge/lounge.html">lounge</a></li>
                 <li><a href="#">Designing Team</a></li>
                 <li class="divider"></li>
                 <li><a href="#">Investors</a></li>
@@ -87,30 +88,7 @@
         </div>
         <div class="col-md-4">
           <h1>Let's play games</h1>
-          <script>
-            var answer = prompt("Put in your answers.");
-            while(true){
-              var guess = prompt("Let's guess!")
-              var number = 0;
-              var A = 0;
-              var B = 0;
-
-              number++
-              for (var i = 0; i < answer.length; i++) {
-                for (var j = 0; j < guess.length; j++){
-                  if (answer[i] === guess[j] && i === j)
-                    A++;
-                  if(answer[i] === guess[j] && i !== j)
-                    B++;
-                }
-              }
-              document.write(A+"A"+B+"B<br>");
-              if(A === 4){
-                document.write("congratulations!<br> You guess "+ number +" times.");
-                break;
-              }
-            }
-          </script>
+          <button type="button" onclick="Games()">Games start</button>
         </div>
       </div>
       
