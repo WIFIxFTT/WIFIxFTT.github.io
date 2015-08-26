@@ -1,41 +1,145 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
-<head>
-	<title>My Resume</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Resume</title>
 	<meta charset="utf-8">
-</head>
-<body>
-	<h1>張竣盛</h1>
-	<a href="810~815/images/me.big.jpg"><img src="810~815/images/me.jpg" alt="Something has wrong."></a>
-	<div>
+	<link rel="stylesheet" type="text/css" href="css/resume.css">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<div class="img">
+  		<img src="images/境界的彼方3.jpg" width="100%" height="100%">
+	</div>
+
+    <div class="page-header head text-center">
+		<h1>張竣盛</h1>
+	</div>
+	<div class="images">
+		<a href="images/my.big.jpg"><img src="images/my.jpg" alt="Something has wrong."></a>
+	</div>
+	<div class="words">
 		<h1>個人資料</h1>
 		<p>
 			email:peter4263676@gmail.com<br>
 			address:中壢市九和三街10號<br>
 			<a href="https://www.facebook.com/profile.php?id=100002789211055">My facebook</a><br>
-			phone number:0926-581-587<br>
+			phone number:0926-581-587<br>					
 		</p>
 	</div>
 
-	<div>
-		<h1>個人經歷</h1>
-		<h2>學歷</h2>
-		<ul>
-			<li>治平高中畢業</li>
-			<li>現任就讀元智大學資訊工程學士班</li>
-		</ul>
-		<h2>寫過的程式語言</h2>
-		<ul>
-			<li>C++</li>
-			<li>Java</li>
-		</ul>
-		<h2>作品</h2>
-		<p>有利用Youtube的API寫出一個網路串聯的影音程式，可搜尋也有介面</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col1">
+				<div class="page-header">
+						<h1>個人經歷</h1>
+						<h2>學歷</h2>
+						<ul>
+							<li>治平高中畢業</li>
+							<li>現任就讀元智大學資訊工程學士班</li>
+						</ul>
+							<h2>寫過的程式語言</h2>
+						<ul>
+							<li>C++</li>
+							<li>Java</li>
+						</ul>
+						<h2>作品</h2>
+						<p>有利用Youtube的API寫出一個網路串聯的影音程式，可搜尋也有介面</p>	
+				</div>
+			</div>
+		</div>
 	</div>
 
-	<div>
-		<h1>個人介紹</h1>
-		<p>除了一般的程式跟網頁以外，也很喜歡聽音樂(主要是日本歌跟西方歌曲)，電影跟動畫也算是平日休閒之餘會去看的東西，運動方面也很喜歡壘球。</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col2">
+				<div class="page-header">
+					<h1>個人介紹</h1>
+					<p>除了一般的程式跟網頁以外，也很喜歡聽音樂(主要是日本歌跟西方歌曲)，電影跟動畫也算是平日休閒之餘會去看的東西，運動方面也很喜歡壘球。</p>
+				</div>
+			</div>
+		</div>
 	</div>
-</body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col3">
+				<div class="page-header ">
+					<h1>我喜歡的音樂</h1>
+					<ol>
+						<li><a href="https://www.youtube.com/watch?v=WV2UOHVcp0s">Preserved Valkyria</a></li>
+						<li><a href="https://youtu.be/E3wWC6Cfikg?list=FLOKAy8Uu14wtnPuh25TXDzQ">時を刻む唄</a></li>
+						<li><a href="https://youtu.be/XIzojzMb7hU?list=FLOKAy8Uu14wtnPuh25TXDzQ">wac - 音楽</a></li>
+						<li><a href="https://youtu.be/AqajUg85Ax4?list=FLOKAy8Uu14wtnPuh25TXDzQ">Avril Lavigne - Let Me Go</a></li>
+					</ol>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col4">
+				<div class="page-header">
+					<h1>我的圖片</h1>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-4">
+				<div class="page-header">
+					<a href="images/1.jpg"><img src="images/1.jpg" width="200px" height="200px"></a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="page-header">
+					<a href="images/2.jpg"><img src="images/2.jpg" width="200px" height="200px"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4">
+				<div class="page-header">
+					<a href="images/3.jpg"><img src="images/3.jpg" width="200px" height="200px"></a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="page-header">
+					<a href="images/4.jpg"><img src="images/4.jpg" width="200px" height="200px"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4">
+				<div class="page-header">
+					<a href="images/5.jpg"><img src="images/5.jpg" width="200px" height="200px"></a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="page-header">
+					<a href="images/6.jpg"><img src="images/6.jpg" width="200px" height="200px"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>

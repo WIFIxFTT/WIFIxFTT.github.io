@@ -1,0 +1,19 @@
+.images{
+	position: fixed;
+	right: 400px;
+}
+.words{
+	position: fixed;
+	right: 100px;
+}
+.head{
+	background: #6BC0FF;
+}
+.img{
+	position: fixed;
+
+	width: 100%;
+
+	z-index: -100;
+	opacity: 0.4;
+}
